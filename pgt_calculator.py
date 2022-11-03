@@ -18,4 +18,3 @@ while True:
         sum1 = pow(float(base), 2) + pow(float(perpendicular), 2)
         result = sqrt(sum1)
         print("Hypotenuse is: " +str(result))
-        print("Enter a number")
