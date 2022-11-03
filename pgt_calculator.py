@@ -8,11 +8,11 @@ def isfloat(num):
                 
 while True:
         base = input("Enter Base > ")
-        if not isfloat(base):
+        while not isfloat(base):
                 print("Enter a valid number")
                 base = input("Enter Base > ")
         perpendicular = input("Enter Perpendicular > ")
-        if not isfloat(perpendicular):
+        while not isfloat(perpendicular):
                 print("Enter a valid number")
                 perpendicular = input("Enter Perpendicular > ")
         sum1 = pow(float(base), 2) + pow(float(perpendicular), 2)
